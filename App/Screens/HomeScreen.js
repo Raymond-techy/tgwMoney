@@ -4,11 +4,11 @@ import { styled } from "styled-components/native";
 import { StatusBar } from "expo-status-bar";
 import { FontAwesome5, MaterialIcons, AntDesign } from "@expo/vector-icons";
 import Text from "../Components/Text";
-
 import TransactionHistory from "../Constants/Transactions";
 import { LineChart } from "react-native-chart-kit";
 import { Dimensions } from "react-native";
 import Screen from "../Components/Screen";
+import AppTextInput from "../Components/AppTextInput";
 const HomeScreen = () => {
   const { width } = Dimensions.get("window");
 
